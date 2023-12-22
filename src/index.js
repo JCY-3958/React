@@ -8,13 +8,18 @@ import Library from './chapter-3/Library';
 import Clock from './chpater-4/Clock';
 import Comment from './chpater-5/Comment';
 import CommentList from './chpater-5/CommentList';
+import NotificationList from './chapter-6/NotificationList';
+import Accommodate from './chpater-7/Accommodate';
+import ConfirmButton from './chpater-8/ConfirmButton';
+import LandingPage from './chapter-9/LandingPage';
+import AttendanceBook from './chapter-10/AttendanceBook';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 setInterval(() => {
   root.render(
     <React.StrictMode>
-      <CommentList />
+      <AttendanceBook />
     </React.StrictMode>
   )
 }, 1000);
