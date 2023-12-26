@@ -3,26 +3,29 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
 import Library from './chapter-3/Library';
-import Clock from './chpater-4/Clock';
-import Comment from './chpater-5/Comment';
-import CommentList from './chpater-5/CommentList';
+import Clock from './chapter-4/Clock';
+import Comment from './chapter-5/Comment';
+import CommentList from './chapter-5/CommentList';
 import NotificationList from './chapter-6/NotificationList';
-import Accommodate from './chpater-7/Accommodate';
-import ConfirmButton from './chpater-8/ConfirmButton';
+import Accommodate from './chapter-7/Accommodate';
+import ConfirmButton from './chapter-8/ConfirmButton';
 import LandingPage from './chapter-9/LandingPage';
 import AttendanceBook from './chapter-10/AttendanceBook';
+import SignUp from './chapter-11/SignUp';
+import Calculator from './chapter-12/Calculator';
+import ProfileCard from './chapter-13/ProfileCard';
+import DarkOrLight from './chapter-14/DarkOrLight';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-setInterval(() => {
-  root.render(
-    <React.StrictMode>
-      <AttendanceBook />
-    </React.StrictMode>
-  )
-}, 1000);
+
+root.render(
+  <React.StrictMode>
+    <DarkOrLight />
+  </React.StrictMode>
+);
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
